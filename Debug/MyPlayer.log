@@ -1,0 +1,24 @@
+﻿  StdAfx.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  VolumeButton.cpp
+  TransparentStatic.cpp
+  StarWarsCtrl.cpp
+  SlideButton.cpp
+  SkinButton.cpp
+  RenameDlg.cpp
+  PlayListDlg.cpp
+  NewListDlg.cpp
+  MyPlayerDlg.cpp
+  MyPlayer.cpp
+MyPlayer.cpp(74): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afxwin.h(5224): note: 参见“CWinApp::Enable3dControls”的声明
+  MyList.cpp
+  LyricDlg.cpp
+LyricDlg.cpp(178): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  FileAttributeDlg.cpp
+  DelListDlg.cpp
+  正在生成代码...
+  MyPlayer.vcxproj -> H:\C++workspace\MyPlayer\.\Debug\MyPlayer.exe
+  MyPlayer.vcxproj -> .\Debug\MyPlayer.pdb (Full PDB)

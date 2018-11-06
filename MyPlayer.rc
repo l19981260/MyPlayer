@@ -1,0 +1,540 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\MyPlayer.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\icon1.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 240, 173
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "欢饮来到bug播放器"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    LTEXT           "Static",IDC_STARWARS,0,0,239,172
+END
+
+IDD_MYPLAYER_DIALOG DIALOGEX 0, 0, 321, 200
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_BTN_OPEN,"Button",BS_OWNERDRAW | WS_TABSTOP,135,10,20,15
+    CONTROL         "",IDC_BTN_PLAY,"Button",BS_OWNERDRAW | WS_TABSTOP,50,10,25,15
+    CONTROL         "",IDC_BTN_STOP,"Button",BS_OWNERDRAW | WS_TABSTOP,20,10,25,15
+    CONTROL         "",IDC_BTN_PREV,"Button",BS_OWNERDRAW | WS_TABSTOP,80,10,20,15
+    CONTROL         "",IDC_BTN_NEXT,"Button",BS_OWNERDRAW | WS_TABSTOP,105,10,20,15
+    CONTROL         "",IDC_BTN_HIDE,"Button",BS_OWNERDRAW | WS_TABSTOP,180,0,25,15
+    CONTROL         "",IDC_BTN_MIN,"Button",BS_OWNERDRAW | WS_TABSTOP,210,0,20,15
+    CONTROL         "",IDC_BTN_EXIT,"Button",BS_OWNERDRAW | WS_TABSTOP,240,0,25,15
+    CONTROL         "",IDC_BTN_PLAYLIST_SHOW,"Button",BS_OWNERDRAW | WS_TABSTOP,165,25,25,40
+    LTEXT           "播放",IDC_STATIC_PLAY,5,35,20,8
+    LTEXT           "随机",IDC_STATIC_MODE,45,35,80,10
+    CONTROL         "",IDC_BTN_SLIDE,"Button",BS_OWNERDRAW | WS_TABSTOP,20,65,100,15
+    CONTROL         "",IDC_BTN_VOLUME,"Button",BS_OWNERDRAW | WS_TABSTOP,195,25,25,60
+    CONTROL         "",IDC_BTN_LYRIC,"Button",BS_OWNERDRAW | WS_TABSTOP,237,47,46,23
+    CONTROL         "",IDC_BTN_SHOWMENU,"Button",BS_OWNERDRAW | WS_TABSTOP,139,109,64,18
+END
+
+IDD_PLAYLIST_DIALOG DIALOG 0, 0, 246, 201
+STYLE DS_SETFONT | WS_POPUP
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "",IDC_BTN_CLOSE,"Button",BS_OWNERDRAW | WS_TABSTOP,201,5,20,15
+    LISTBOX         IDC_PLAYLIST,10,15,169,132,LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_BTN_ADD,"Button",BS_OWNERDRAW | WS_TABSTOP,21,165,35,14
+    CONTROL         "",IDC_BTN_DEL,"Button",BS_OWNERDRAW | WS_TABSTOP,75,168,31,17
+    CONTROL         "",IDC_BTN_LIST,"Button",BS_OWNERDRAW | WS_TABSTOP,120,167,38,18
+END
+
+IDD_LYRIC_DIALOG DIALOG 0, 0, 167, 167
+STYLE DS_SETFONT | WS_POPUP
+FONT 10, "System"
+BEGIN
+END
+
+IDD_NEWLIST_DIALOG DIALOG 0, 0, 119, 54
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "新建播放列表"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,6,35,46,14
+    PUSHBUTTON      "取消",IDCANCEL,60,34,50,15
+    LTEXT           "请输入新建列表名称:",IDC_STATIC,5,5,75,8
+    EDITTEXT        IDC_EDIT_NAME,5,18,105,12,ES_AUTOHSCROLL
+END
+
+IDD_RENAME_DIALOG DIALOG 0, 0, 144, 61
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "重新命名"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,10,40,50,14
+    PUSHBUTTON      "取消",IDCANCEL,80,40,50,14
+    EDITTEXT        IDC_EDIT_NAME,57,20,80,12,ES_AUTOHSCROLL
+    LTEXT           "请选择列表",IDC_STATIC,6,6,40,8
+    COMBOBOX        IDC_COMBO_LIST,57,5,80,105,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "请输入新名称:",IDC_STATIC,5,20,50,8
+END
+
+IDD_DEL_LIST_DIALOG DIALOG 0, 0, 99, 51
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "删除播放列表"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "删除",IDOK,5,33,35,14
+    PUSHBUTTON      "取消",IDCANCEL,50,33,40,14
+    LTEXT           "请选择播放列表",IDC_STATIC,3,4,60,8
+    COMBOBOX        IDC_COMBO_LIST,5,16,85,125,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_MENE_DIALOG DIALOGEX 0, 0, 51, 80
+STYLE DS_SETFONT | WS_POPUP
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+END
+
+IDD_FILEATTRIBUTE_DIALOG DIALOG 0, 0, 172, 42
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "文件属性"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "文件路径:",IDC_STATIC,2,3,63,8
+    EDITTEXT        IDC_EDIT_PATH,2,12,168,10,ES_AUTOHSCROLL
+    LTEXT           "文件大小:",IDC_STATIC,1,27,39,10
+    LTEXT           "MB",IDC_STATIC_SIZE,41,27,45,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "这就是一个bug"
+            VALUE "FileDescription", "BUG"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "InternalName", "bug"
+            VALUE "LegalCopyright", "版权所有 (C) 2017"
+            VALUE "OriginalFilename", "BUG.exe"
+            VALUE "ProductName", "BUG应用程序"
+            VALUE "ProductVersion", "1,0,0,0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 233
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 166
+    END
+
+    IDD_MYPLAYER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 314
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    IDD_PLAYLIST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 239
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_LYRIC_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 160
+    END
+
+    IDD_NEWLIST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 112
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 47
+    END
+
+    IDD_RENAME_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 137
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 54
+    END
+
+    IDD_DEL_LIST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 92
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 44
+    END
+
+    IDD_MENE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 44
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 73
+    END
+
+    IDD_FILEATTRIBUTE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 165
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 35
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_OPEN_NORMAL         BITMAP                  "res\\openNormal.bmp"
+
+IDB_OPEN_OVER           BITMAP                  "res\\openOver.bmp"
+
+IDB_MAIN                BITMAP                  "res\\main.bmp"
+
+IDB_EXIT_NORMAL         BITMAP                  "res\\exitNormal.bmp"
+
+IDB_EXIT_OVER           BITMAP                  "res\\exitOver.bmp"
+
+IDB_HIDE_NORMAL         BITMAP                  "res\\hideNormal.bmp"
+
+IDB_HIDE_OVER           BITMAP                  "res\\hideOver.bmp"
+
+IDB_MIN_NORMAL          BITMAP                  "res\\minNormal.bmp"
+
+IDB_MIN_OVER            BITMAP                  "res\\minOver.bmp"
+
+IDB_NEXT_NORMAL         BITMAP                  "res\\nextNormal.bmp"
+
+IDB_NEXT_OVER           BITMAP                  "res\\nextOver.bmp"
+
+IDB_PLAYLIST_SHOW_NORMAL BITMAP                  "res\\playlistNormal.bmp"
+
+IDB_PLAYLIST_SHOW_OVER  BITMAP                  "res\\playlistOver.bmp"
+
+IDB_PLAY_NORMAL         BITMAP                  "res\\playNormal.bmp"
+
+IDB_PLAY_OVER           BITMAP                  "res\\playOver.bmp"
+
+IDB_PREV_NORMAL         BITMAP                  "res\\prevNormal.bmp"
+
+IDB_PREV_OVER           BITMAP                  "res\\prevOver.bmp"
+
+IDB_SLIDE               BITMAP                  "res\\slide.bmp"
+
+IDB_SLIDEBKGND          BITMAP                  "res\\slidebackground.bmp"
+
+IDB_STOP_NORMAL         BITMAP                  "res\\stopNormal.bmp"
+
+IDB_STOP_OVER           BITMAP                  "res\\stopOver.bmp"
+
+IDB_VOLUME              BITMAP                  "res\\volume.bmp"
+
+IDB_PLAYLIST_HIDE_NORMAL BITMAP                  "res\\playlistNormal2.bmp"
+
+IDB_PLAYLIST_HIDE_OVER  BITMAP                  "res\\playlistOver2.bmp"
+
+IDB_PLAYLIST_MAIN       BITMAP                  "res\\playlistDlg.bmp"
+
+IDB_PLCLOSE_NORMAL      BITMAP                  "res\\playlistcloseNormal.bmp"
+
+IDB_PLCLOSE_OVER        BITMAP                  "res\\playlistcloseOver.bmp"
+
+IDB_ADD_NORMAL          BITMAP                  "res\\addNormal.bmp"
+
+IDB_ADD_OVER            BITMAP                  "res\\addOver.bmp"
+
+IDB_DEL_NORMAL          BITMAP                  "res\\delNormal.bmp"
+
+IDB_DEL_OVER            BITMAP                  "res\\delOver.bmp"
+
+IDB_LIST_NORMAL         BITMAP                  "res\\listNormal.bmp"
+
+IDB_LIST_OVER           BITMAP                  "res\\listOver.bmp"
+
+IDB_LYRIC_HIDE_NORMAL   BITMAP                  "res\\lyrichideNormal.bmp"
+
+IDB_LYRIC_HIDE_OVER     BITMAP                  "res\\lyrichideOver.bmp"
+
+IDB_LYRIC_SHOW_NORMAL   BITMAP                  "res\\lyricshowNormal.bmp"
+
+IDB_LYRIC_SHOW_OVER     BITMAP                  "res\\lyricshowOver.bmp"
+
+IDB_MENUSHOW            BITMAP                  "res\\MenuShow.bmp"
+
+IDB_MENU                BITMAP                  "res\\Menu.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_ADD MENU
+BEGIN
+    POPUP "add"
+    BEGIN
+        MENUITEM "添加文件...",                     IDC_ADD_FILE
+        MENUITEM "添加文件夹...",                    IDC_ADD_FOLDER
+    END
+END
+
+IDR_MENU_DEL MENU
+BEGIN
+    POPUP "del"
+    BEGIN
+        MENUITEM "删除选中项",                       IDC_DEL_SELECT
+        MENUITEM "删除所有项",                       IDC_DEL_ALL
+    END
+END
+
+IDR_MENU_LIST MENU
+BEGIN
+    POPUP "list"
+    BEGIN
+        MENUITEM "打开列表...",                     IDC_LIST_OPEN
+        MENUITEM "新建列表",                        IDC_LIST_NEW
+        MENUITEM "删除列表",                        IDC_LIST_DEL
+        MENUITEM "保存列表",                        IDC_LIST_SAVE
+        MENUITEM "重命名..",                       IDC_LIST_RENAME
+    END
+END
+
+IDR_MENU_MAIN MENU
+BEGIN
+    POPUP "MAIN"
+    BEGIN
+        MENUITEM "欢迎来到bug播放器...\t",             IDC_ABOUT_STAR
+        POPUP "播放控制\t"
+        BEGIN
+            MENUITEM "播放",                          IDC_MENU_PLAY
+            MENUITEM "暂停",                          IDC_MENU_PAUSE
+            MENUITEM "停止",                          IDC_MENU_STOP
+            MENUITEM SEPARATOR
+            MENUITEM "上一首",                         IDC_MENU_PREV
+            MENUITEM "下一首",                         IDC_MENU_NEXT
+            MENUITEM SEPARATOR
+            MENUITEM "打开...",                       IDC_MENU_OPEN
+        END
+        POPUP "音量控制"
+        BEGIN
+            MENUITEM "增大",                          IDC_MENU_VOLUP
+            MENUITEM "减小",                          IDC_MENU_VOLDOWN
+            MENUITEM "静音",                          IDC_MENU_VOLSLC
+        END
+        POPUP "播放模式"
+        BEGIN
+            MENUITEM "随机",                          IDC_MENU_RAND
+            MENUITEM "顺序",                          IDC_MENU_SEQ
+            MENUITEM "单曲",                          IDC_MENU_SINGLE
+        END
+        MENUITEM SEPARATOR
+        POPUP "歌词路径"
+        BEGIN
+            MENUITEM "没有设置",                        IDC_SET_LYRICPATH
+            MENUITEM "打开",                          IDC_MENU_OPEN_LYRICPATH
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "退出",                          IDC_BTN_EXIT
+    END
+END
+
+IDR_MENU_RBCLICK_LIST MENU
+BEGIN
+    POPUP "nothing"
+    BEGIN
+        POPUP "发送到"
+        BEGIN
+            MENUITEM "文件夹...",                      IDC_SEND_FOLDER
+            MENUITEM "可移动盘",                        IDC_SEND_DISK
+        END
+        MENUITEM "文件属性",                        IDC_FILE_ATTRIBUTE
+    END
+END
+
+IDR_MENU_HIDEMAIN MENU
+BEGIN
+    POPUP "nothing"
+    BEGIN
+        MENUITEM "隐藏主窗体",                       IDC_HIDE_MAIN
+        MENUITEM "关闭歌词",                        IDC_HIDE_LYRIC
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_MENE_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "关于..."
+END
+
+STRINGTABLE
+BEGIN
+    IDC_ADD_FILE            "添加文件"
+    IDC_ADD_FOLDER          "添加文件夹"
+    IDC_DEL_SELECT          "删除选中项"
+    IDC_DEL_ALL             "清空列表"
+    IDC_LIST_NEW            "新建列表"
+    IDC_LIST_DEL            "删除列表"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\MyPlayer.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

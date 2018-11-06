@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{874c7758-74ed-46e6-8550-ae4f495db676}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{624aa761-4aba-4192-b768-e47072fd509a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{5f041f57-826b-47df-adbf-327b2956f9a5}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DelListDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileAttributeDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LyricDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPlayerDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewListDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayListDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenameDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SlideButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StarWarsCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TransparentStatic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumeButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyPlayer.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DelListDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileAttributeDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LyricDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPlayerDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewListDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayListDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenameDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SlideButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StarWarsCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransparentStatic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VolumeButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\addNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\addOver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\delNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\delOver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\exitNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\exitOver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\hideNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\hideOver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\listNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\listOver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\lyrichideNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\lyrichideOver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\lyricshowNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\lyricshowOver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\main.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Menu.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MenuShow.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\minNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\minOver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MyPlayer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\nextNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\nextOver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\openNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\openOver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\playlistcloseNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\playlistcloseOver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\playlistDlg.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\playlistNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\playlistNormal2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\playlistOver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\playlistOver2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\playNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\playOver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\prevNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\prevOver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\slide.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\slidebackground.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\stopNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\stopOver.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\volume.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\1.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\MyPlayer.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
